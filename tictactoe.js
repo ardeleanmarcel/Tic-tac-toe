@@ -12,7 +12,6 @@ function xOr0(cellNumber) {
       gameTable[cellNumber] = '0';
     }
   }
-  checkingTheWinner();
   winningMessage();
 }
 
