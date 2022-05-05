@@ -43,7 +43,7 @@ function checkingTheWinner() {
 function winningMessage() {
   if (checkingTheWinner() !== "") {
   	resultMessage.innerHTML = `Player "${checkingTheWinner()}" win! Congratulations!`;
-   } else if (!(gameTable.includes(""))) {
+  } else if (!(gameTable.includes(""))) {
   	resultMessage.innerHTML = "It is a draw!";
   }
 }
